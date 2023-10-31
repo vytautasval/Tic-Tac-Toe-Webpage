@@ -1,9 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     const cells = document.querySelectorAll('td') // Creates an array of all available cells.
     let isUserTurn = true
-    addX(cells, isUserTurn)
+
+    document.getElementById('start-button').ontoggle = addX(cells, isUserTurn)
+    
+
+    
+
+
 })
+
 
 function addX(cells, isUserTurn) {
     cells.forEach(function(cell) {
@@ -28,4 +34,8 @@ function addO(cells) {
         const randomCell = emptyCells[Math.floor(Math.random() * emptyCells.length)]
         randomCell.innerHTML = 'O'
     }
+}
+
+function winConditions(cells) {
+
 }
