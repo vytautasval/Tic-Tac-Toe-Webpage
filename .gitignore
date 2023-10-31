@@ -1,0 +1,12 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.gitconfig
+.lesshst
+.motd_shown
+.profile
+.quokka/
+.sudo_as_admin_successful
+.vscode-server/
+js-playground/
